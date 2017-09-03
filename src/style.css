@@ -1,0 +1,184 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 16px;
+}
+
+.bg-1 {
+    background-color: #24255d;
+    color: #fff2c7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-2 {
+    background-color: #fff2c7;
+    color: #24255d;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-3 {
+    background-color: hsl(34, 53%, 82%);
+    background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+    hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+    hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+    hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+    hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+    hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.5) 120px, hsla(197, 62%, 11%, 0.5) 140px
+    ),
+    repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+            hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+            hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+            hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+            hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+            hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px
+    );
+    color: #181818;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px #c0c0c0;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+h3, i.fa {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+p {
+    font-size: 14px;
+}
+
+.contacts > h3 {
+    padding: 25px;
+}
+
+p, .bio-details > ul > li > a {
+    word-wrap: break-word;
+}
+
+li {
+    list-style: none;
+}
+
+.column {
+    padding: 10px;
+}
+
+#picture {
+    padding: 15px;
+}
+
+div.bio {
+    margin: 0px;
+    height: 100px;
+    background-color: #fffff0;
+    color: #24255d;
+    border: 1px solid #181818;
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+}
+
+.bio-details > ul > li > a, p > a {
+    text-decoration: none;
+}
+
+.bio-details > ul > li > a:hover, p > a:hover {
+    text-decoration: none;
+    color: #D3776F;
+}
+
+.bio-details > ul > li > a:visited, p > a:visited {
+    text-decoration: none;
+}
+
+.bio-icon, .bio-details {
+    height: 100px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.bio-icon {
+    padding: 10px 0 10px 10px;
+}
+
+.bio-details {
+    padding: 10px 10px 10px 0;
+}
+
+.bio-icon > i.fa {
+    font-size: 26px;
+}
+
+.contacts > a {
+    padding: 20px;
+}
+
+.contacts > a > i.fa {
+    font-size: 100px;
+    color: #24255d;
+}
+
+.contacts > a > i.fa:hover {
+    font-size: 100px;
+    color: #D3776F;
+}
+
+.spacebefore:before {
+    content: " ";
+}
+
+.mark {
+    border-radius: 3px;
+    border: 1px solid #181818;
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.8);
+}
+
+.quote:before, .quote:after {
+    content: '"';
+}
+
+.author {
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.author:before {
+    content: '- ';
+}
+
+.resize {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: auto;
+    border: 1px solid #181818;
+    box-shadow: 2px 2px 8px 1px #0B242D;
+    border-radius: 3px;
+}
+
+.img-circle {
+    border: 2px solid #D3776F;
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.8);
+}

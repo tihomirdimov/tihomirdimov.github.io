@@ -1,92 +1,291 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <title>SoftUni Blog</title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <script src="scripts/jquery-1.10.2.js"></script>
-    <script src="scripts/bootstrap.js"></script>
+    <meta charset="utf-8"/>
+    <title>Tihomir Dimov's personal web page</title>
+    <link rel="stylesheet" content="st" href="./src/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-96433807-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-<header>
-    <div class="navbar navbar-default navbar-fixed-top text-uppercase">
-        <div class="container">
-            <div class="navbar-header">
-                <a href="index.html" class="navbar-brand">SoftUni Blog</a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="register.html">Register</a></li>
-                    <li><a href="login.html">Login</a></li>
-                </ul>
-            </div>
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#pageNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="pageNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#oneMoreSource">OneMoreSource</a></li>
+                <li><a href="#thoughts">Some Favourite Quotes</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
         </div>
     </div>
+</nav>
+<header>
+    <section class="container-fluid bg-3">
+        <div class="row text-center">
+            <div class="column col-xs-0 col-sm-1 col-md-1 col-lg-2">
+            </div>
+            <div class="column col-xs-12 col-sm-10 col-md-10 col-lg-8">
+                <h1 class="mark">www.tihomirdimov.com</h1>
+                <h2 class="mark">A personal web page</h2>
+            </div>
+            <div class="column col-xs-0 col-sm-1 col-md-1 col-lg-2">
+            </div>
+        </div>
+    </section>
 </header>
 <main>
-    <div class="container body-content">
-        <div class="row">
-            <div class="col-md-6">
-                <article>
-                    <header>
-                        <h2>Why Choosing the Right Storage Infrastructure.</h2>
-                    </header>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ante arcu, ultrices nec tortor in,
-                        blandit condimentum erat. Aliquam ut mauris arcu. Aliquam aliquet neque nec vestibulum sagittis.
-                        Fusce dignissim augue vel diam tempor eleifend. Nulla facilisi. Donec condimentum luctus dictum.
-                        Duis commodo quam mattis risus consequat, sit amet malesuada nibh aliquet. Morbi lobortis libero
-                        nibh, nec rhoncus felis aliquam sagittis. Nulla sagittis, urna sed porttitor ornare, orci magna
-                        imperdiet odio, egestas condimentum orci tellus quis massa. Ut in sapien varius, ornare mi
-                        ultrices, vulputate magna. Nullam laoreet, arcu vitae faucibus accumsan, tortor elit
-                        sollicitudin metus, et pulvinar sem turpis id tellus. Fusce eget quam quis ipsum euismod
-                        suscipit. Mauris varius arcu leo, at rhoncus nibh ornare ut. Maecenas tincidunt ornare commodo.
-                    </p>
-                    <small class="author">Tihomir Dimov</small>
-                    <footer>
-                        <div class="pull-right">
-                            <a class="btn btn-default btn-xs" href="viewpost.html">Read more &raquo;</a>
-                        </div>
-                    </footer>
-                </article>
-            </div>
-            <div class="col-md-6">
-                <article>
-                    <header>
-                        <h2>Why Choosing the Right Storage Infrastructure.</h2>
-                    </header>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ante arcu, ultrices nec tortor in,
-                        blandit condimentum erat. Aliquam ut mauris arcu. Aliquam aliquet neque nec vestibulum sagittis.
-                        Fusce dignissim augue vel diam tempor eleifend. Nulla facilisi. Donec condimentum luctus dictum.
-                        Duis commodo quam mattis risus consequat, sit amet malesuada nibh aliquet. Morbi lobortis libero
-                        nibh, nec rhoncus felis aliquam sagittis. Nulla sagittis, urna sed porttitor ornare, orci magna
-                        imperdiet odio, egestas condimentum orci tellus quis massa. Ut in sapien varius, ornare mi
-                        ultrices, vulputate magna. Nullam laoreet, arcu vitae faucibus accumsan, tortor elit
-                        sollicitudin metus, et pulvinar sem turpis id tellus. Fusce eget quam quis ipsum euismod
-                        suscipit. Mauris varius arcu leo, at rhoncus nibh ornare ut. Maecenas tincidunt ornare commodo.
-                    </p>
-                    <small class="author">Tihomir Dimov</small>
-                    <footer>
-                        <div class="pull-right">
-                            <a class="btn btn-default btn-xs" href="viewpost.html">Read more &raquo;</a>
-                        </div>
-                    </footer>
-                </article>
+    <section id="aboutMe" class="container-fluid bg-1">
+        <div class="row text-center">
+            <div class="column col-xs-12 col-sm-12 col-md-12 col-lg-12" id="picture">
+                <h3>About Me</h3>
+                <img src="./src/photo.jpg" class="img-responsive img-circle center-block image" alt="Tihomir's photo"
+                     width="200"
+                     height="200">
             </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="column col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="bio">
+                    <div class="bio-icon">
+                        <i class="fa fa-fw fa-male"></i>
+                    </div>
+                    <div class="bio-details">
+                        <ul>
+                            <li>Tihomir Dimov<sup class="spacebefore">2</sup></li>
+                            <li>21 / 05 / 1986</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="column col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="bio">
+                    <div class="bio-icon">
+                        <i class="fa fa-fw fa-home"></i>
+                    </div>
+                    <div class="bio-details">
+                        <ul>
+                            <li>Sofia, Bulgaria</li>
+                            <li>Tryavna, Bulgaria</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="column col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="bio">
+                    <div class="bio-icon">
+                        <i class="fa fa-fw fa-graduation-cap"></i>
+                    </div>
+                    <div class="bio-details">
+                        <ul>
+                            <li><a href="http://www.2els.com" target="_blank">2ELS</a></li>
+                            <li><a href="http://www.uctm.edu" target="_blank">UCTM</a></li>
+                            <li><a href="http://www.tugab.bg" target="_blank">TU Gabrovo</a></li>
+                            <li><a href="http://www.softuni.bg" target="_blank">SoftUni</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="column col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="bio">
+                    <div class="bio-icon">
+                        <i class="fa fa-fw fa-briefcase"></i>
+                    </div>
+                    <div class="bio-details">
+                        <ul>
+                            <li>Director @<a class="spacebefore" href="https://www.onemoresource.com/" target="_blank">OneMoreSource</a>
+                            </li>
+                            <li>Wannabe C# Developer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="bio">
+                    <div class="bio-icon">
+                        <i class="fa fa-fw fa-thumbs-o-up"></i>
+                    </div>
+                    <div class="bio-details">
+                        <ul>
+                            <li>Science</li>
+                            <li>Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="column col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="bio">
+                    <div class="bio-icon">
+                        <i class="fa fa-fw fa-thumbs-o-down"></i>
+                    </div>
+                    <div class="bio-details">
+                        <ul>
+                            <li>Ignorance</li>
+                            <li>Religion</li>
+                            <li>War</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="column col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="bio">
+                    <div class="bio-icon">
+                        <i class="fa fa-fw fa-music"></i>
+                    </div>
+                    <div class="bio-details">
+                        <ul>
+                            <li>Trance</li>
+                            <li>Classical</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="column col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="bio">
+                    <div class="bio-icon">
+                        <i class="fa fa-fw fa-futbol-o"></i>
+                    </div>
+                    <div class="bio-details">
+                        <ul>
+                            <li>CSKA</li>
+                            <li>FC Barcelona</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="oneMoreSource" class="container-fluid bg-2">
+        <div class="row">
+            <div class="column col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="text-justify">
+                    <h3 class="text-center">OneMoreSource</h3>
+                    <p><a href="https://www.onemoresource.com/" target="_blank">OneMoreSource</a> is an
+                        e-Procurement and e-Sourcing platform which facilitates
+                        the processes related to purchasing of goods and services in the company. It implements the best
+                        procurement practices eliminating the intransparency of the process and providing great level of
+                        automation to the users who, unltil now, followed the classic approach of nominating suppliers
+                        by managing endless email communication and analyzing large spreadsheets or tons of paperwork.
+                    </p>
+                    <p>How it started? The idea came in the late 2010, but the project took initial shape in the early
+                        2011. Thanks to a friend of mine I met Andrey, Martin and Vlado, who helped a
+                        lot and in November 2014 we started a very simple e-Procurement platform part of the <a
+                                href="http://www.bizportal.bg" target="_blank">Bizportal.bg</a> web portal. Investors
+                        saw a
+                        potential in the software and in the late 2015 we started developing the platform as a separate
+                        entity called OneMoreSource. Since September 2016 I am fully dedicated to the project and
+                        spending
+                        all my time to the business and product development of the platform with the main goal to make
+                        it
+                        a world class software product.</p>
+                    <p>You can see more details in our promo video or by visiting OneMoreSource's <a
+                            href="https://www.youtube.com/channel/UCgraOtP3hl5WmRKRlr2rJIA" target="_blank">YouTube
+                        Channel</a>. If you have further interest in OneMoreSource let me know by email. More in the the
+                        <a href="#contact">contacts</a> section below.</p>
+                    <div class="resize">
+                        <div class="embed-responsive embed-responsive-16by9 text-center">
+                            <iframe class="embed-responsive-item" width="640" height="360"
+                                    src="https://www.youtube.com/embed/_YXDDVO99MI" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="thoughts" class="container-fluid bg-1">
+        <div class="row">
+            <div class="column col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="text-justify">
+                    <h3 class="text-center">Some Favourite Quotes</h3>
+                    <p class="quote">An investment in knowledge pays the best interest.</p>
+                    <p class="author">Benjamin Franklin</p>
+                    <p class="quote">All thinking men are atheists.</p>
+                    <p class="author">Ernest Hemmingway</p>
+                    <p class="quote">Lighthouses are more helpful then churches.</p>
+                    <p class="author">Benjamin Franklin</p>
+                    <p class="quote">Technology is the evolution of evolution.</p>
+                    <p class="author">Unknown Author</p>
+                    <p class="quote">I know not with what weapons World War III will be fought, but World War IV will be
+                        fought with sticks and stones.</p>
+                    <p class="author">Albert Einstein</p>
+                    <p class="quote">War is organized murder and nothing else</p>
+                    <p class="author">Harry Patch</p>
+                    <p class="quote">As I hurtled through space, one thought kept crossing my mind - every part of this
+                        rocket was supplied by the lowest bidder.</p>
+                    <p class="author">John Glenn </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="container-fluid bg-2">
+        <div class="row contacts text-center">
+            <div class="column col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3>Contact Me</h3>
+            </div>
+            <a class="col-xs-12 col-sm-4 col-md-4 col-lg-2" href="mailto:tihomirdimov@tihomirdimov.com" target="_blank">
+                <i class="fa fa-at fa-fw"></i>
+            </a>
+            <a class="col-xs-12 col-sm-4 col-md-4 col-lg-2" data-toggle="modal" data-target="#myPhone">
+                <i class="fa fa-mobile-phone fa-fw"></i>
+            </a>
+            <a class="col-xs-12 col-sm-4 col-md-4 col-lg-2" href="https://www.linkedin.com/in/tihomirdimov/"
+               target="_blank">
+                <i class="fa fa-linkedin-square fa-fw"></i>
+            </a>
+            <a class="col-xs-12 col-sm-4 col-md-4 col-lg-2" href="https://twitter.com/texp2dimov" target="_blank">
+                <i class="fa fa-twitter fa-fw"></i>
+            </a>
+            <a class="col-xs-12 col-sm-4 col-md-4 col-lg-2" href="https://github.com/tihomirdimov"
+               target="_blank">
+                <i class="fa fa-github fa-fw"></i>
+            </a>
+            <a class="col-xs-12 col-sm-4 col-md-4 col-lg-2" href="https://www.pinterest.com/texp2dimov/"
+               target="_blank">
+                <i class="fa fa-pinterest-p fa-fw"></i>
+            </a>
+        </div>
+        <div class="modal fade" id="myPhone" role="dialog">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Call Me Maybe</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>+359 87 845 85 90</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
-<footer>
-    <div class="container modal-footer">
-        <p>&copy; 2016 - Software University Foundation</p>
-    </div>
-
-</footer>
 </body>
 </html>
