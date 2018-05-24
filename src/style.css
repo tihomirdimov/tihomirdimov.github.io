@@ -182,3 +182,37 @@ div.bio {
     border: 2px solid #D3776F;
     box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.8);
 }
+
+.job-description{
+    font-style: italic;
+}
+
+.job-period{
+    font-weight: lighter;
+}
+
+.job-period::before{
+    content: '/ ';
+}
+
+.job-period::after{
+    content: ' /';
+}
+
+.employer{
+    font-weight: 600;
+}
+
+.fa-twitter::after {
+    position: relative;
+    float: right;
+    content: '16+';
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #24255d;
+}
+
+.fa-twitter:hover:after{
+    color: orangered;
+}
